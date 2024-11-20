@@ -1,0 +1,53 @@
+$date
+  Wed Nov 20 22:58:43 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module equalitycomparator4bit_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 1 # equal $end
+$scope module uut $end
+$var reg 4 $ a[3:0] $end
+$var reg 4 % b[3:0] $end
+$var reg 1 & equal $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b0001 "
+1#
+b0001 $
+b0001 %
+1&
+#10000000
+b0010 !
+b0011 "
+0#
+b0010 $
+b0011 %
+0&
+#20000000
+b1010 !
+b1010 "
+1#
+b1010 $
+b1010 %
+1&
+#30000000
+b1111 !
+b0000 "
+0#
+b1111 $
+b0000 %
+0&
+#40000000
