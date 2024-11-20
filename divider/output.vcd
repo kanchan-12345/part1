@@ -1,0 +1,62 @@
+$date
+  Thu Nov 21 00:49:40 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module divider_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 4 # q[3:0] $end
+$var reg 4 $ r[3:0] $end
+$scope module uut $end
+$var reg 4 % a[3:0] $end
+$var reg 4 & b[3:0] $end
+$var reg 4 ' q[3:0] $end
+$var reg 4 ( r[3:0] $end
+$var reg 4 ) temp_quotient[3:0] $end
+$var reg 5 * temp_remainder[4:0] $end
+$var reg 4 + divisor[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1010 !
+b0011 "
+b0000 #
+b0000 $
+b1010 %
+b0011 &
+b0000 '
+b0000 (
+b0000 )
+b00000 *
+b0011 +
+#10000000
+b0111 !
+b0010 "
+b0111 %
+b0010 &
+b0010 +
+#20000000
+b1000 !
+b0100 "
+b1000 %
+b0100 &
+b0100 +
+#30000000
+b1111 !
+b0101 "
+b1111 %
+b0101 &
+b0101 +
+#40000000

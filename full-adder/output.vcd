@@ -1,0 +1,75 @@
+$date
+  Thu Nov 21 00:05:33 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module fourbitadder_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 1 # cin $end
+$var reg 4 $ sum[3:0] $end
+$var reg 1 % cout $end
+$scope module uut $end
+$var reg 4 & a[3:0] $end
+$var reg 4 ' b[3:0] $end
+$var reg 1 ( cin $end
+$var reg 4 ) sum[3:0] $end
+$var reg 1 * cout $end
+$var reg 4 + a_int[3:0] $end
+$var reg 4 , b_int[3:0] $end
+$var reg 5 - tempsum[4:0] $end
+$var reg 1 . cin_int[0:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b0010 "
+0#
+b0011 $
+0%
+b0001 &
+b0010 '
+0(
+b0011 )
+0*
+b0001 +
+b0010 ,
+b00011 -
+b0 .
+#10000000
+b0110 !
+b0101 "
+1#
+b1100 $
+b0110 &
+b0101 '
+1(
+b1100 )
+b0110 +
+b0101 ,
+b01100 -
+b1 .
+#20000000
+b1111 !
+b1111 "
+b1111 $
+1%
+b1111 &
+b1111 '
+b1111 )
+1*
+b1111 +
+b1111 ,
+b11111 -
+#30000000

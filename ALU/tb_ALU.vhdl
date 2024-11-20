@@ -68,43 +68,43 @@ begin
         wait for 10 ns;
         
         -- Test Case 1: Addition (000)
-        A_tb <= "00000101";  -- 5
-        B_tb <= "00000011";  -- 3
+        A_tb <= "00000110";  -- 6
+        B_tb <= "00000101";  -- 5
         sel_tb <= "000";     -- ADD
         wait for 10 ns;
         print_test_case("Addition", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
         
         -- Test Case 2: Subtraction (001)
-        A_tb <= "00001000";  -- 8
+        A_tb <= "00000111";  -- 7
         B_tb <= "00000011";  -- 3
         sel_tb <= "001";     -- SUB
         wait for 10 ns;
         print_test_case("Subtraction", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
         
         -- Test Case 3: AND (010)
-        A_tb <= "11110000";
-        B_tb <= "00001111";
+        A_tb <= "11100000";
+        B_tb <= "00000111";
         sel_tb <= "010";     -- AND
         wait for 10 ns;
         print_test_case("AND", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
         
         -- Test Case 4: OR (011)
-        A_tb <= "11110000";
-        B_tb <= "00001111";
+        A_tb <= "11100000";
+        B_tb <= "00001011";
         sel_tb <= "011";     -- OR
         wait for 10 ns;
         print_test_case("OR", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
         
         -- Test Case 5: XOR (100)
-        A_tb <= "11110000";
-        B_tb <= "00001111";
+        A_tb <= "11010000";
+        B_tb <= "00001011";
         sel_tb <= "100";     -- XOR
         wait for 10 ns;
         print_test_case("XOR", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
         
         -- Test Case 6: NOR (101)
-        A_tb <= "11110000";
-        B_tb <= "00001111";
+        A_tb <= "10110000";
+        B_tb <= "00001101";
         sel_tb <= "101";     -- NOR
         wait for 10 ns;
         print_test_case("NOR", A_tb, B_tb, sel_tb, Result_tb, Zero_tb);
